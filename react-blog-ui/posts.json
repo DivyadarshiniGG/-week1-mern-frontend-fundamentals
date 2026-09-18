@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Semantic HTML",
+    "category": "HTML",
+    "excerpt": "Why <section>, <article>, and <nav> matter more than a div-only mindset — and how they help accessibility and SEO.",
+    "date": "2026-08-03"
+  },
+  {
+    "id": 2,
+    "title": "Flexbox vs. Grid: When to Use Which",
+    "category": "CSS",
+    "excerpt": "A practical breakdown of one-dimensional layouts with Flexbox versus two-dimensional layouts with Grid.",
+    "date": "2026-08-06"
+  },
+  {
+    "id": 3,
+    "title": "Responsive Design Without the Guesswork",
+    "category": "CSS",
+    "excerpt": "Using relative units, media queries, and container-aware layouts to build pages that hold up on any screen.",
+    "date": "2026-08-09"
+  },
+  {
+    "id": 4,
+    "title": "ES6 Features Every Frontend Dev Should Know",
+    "category": "JavaScript",
+    "excerpt": "Arrow functions, destructuring, template literals, and spread syntax — the modern JS toolkit in practice.",
+    "date": "2026-08-12"
+  },
+  {
+    "id": 5,
+    "title": "Understanding Props and State in React",
+    "category": "React",
+    "excerpt": "Props flow down, state lives inside a component — the two ideas that make React components predictable.",
+    "date": "2026-08-15"
+  },
+  {
+    "id": 6,
+    "title": "Building Your First Reusable Component",
+    "category": "React",
+    "excerpt": "A walkthrough of designing a Button component that adapts through props instead of being copy-pasted everywhere.",
+    "date": "2026-08-18"
+  },
+  {
+    "id": 7,
+    "title": "Handling Events the React Way",
+    "category": "React",
+    "excerpt": "onClick, onChange, and onSubmit — how React wraps the DOM event system and why synthetic events exist.",
+    "date": "2026-08-21"
+  },
+  {
+    "id": 8,
+    "title": "CSS Custom Properties for Theming",
+    "category": "CSS",
+    "excerpt": "Using CSS variables to build a consistent design system that's easy to update from one place.",
+    "date": "2026-08-24"
+  }
+]

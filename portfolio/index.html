@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Divya Darshini G G — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo">DD</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="hero-kicker">Full Stack Developer — MERN &amp; Python/Flask</p>
+          <h1>Divya Darshini G G builds<br>full-stack apps with an AI edge.</h1>
+          <p class="hero-sub">Final-year MCA student at VIT Chennai, hands-on with the MERN stack, Python, and Flask —
+            and I like folding machine learning into the apps I build, from spam detection to plant disease diagnosis.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">See my projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-hidden="true">
+          <div class="code-line"><span class="tag">&lt;developer&gt;</span></div>
+          <div class="code-line indent">stack: "MERN + Python"</div>
+          <div class="code-line indent">gpa: 9.17<span class="cursor">|</span></div>
+          <div class="code-line"><span class="tag">&lt;/developer&gt;</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <p class="about-text">
+            I'm a final-year MCA student at VIT Chennai with hands-on experience across the MERN stack, Python,
+            JavaScript, and Flask-based web applications. I pick up new concepts quickly and execute with attention
+            to detail — most of my recent projects have paired a solid full-stack foundation with a machine learning
+            or AI component, from an explainable SMS spam detector to a CNN-based plant disease classifier. I'm
+            eager to keep applying what I learn academically to real, working products, and to contribute to
+            team-driven, innovative solutions.
+          </p>
+          <ul class="about-facts">
+            <li><span class="fact-label">Focus</span>Full Stack Development (MERN) + Applied AI/ML</li>
+            <li><span class="fact-label">Currently</span>Final-year MCA, VIT Chennai</li>
+            <li><span class="fact-label">GitHub</span><a href="https://github.com/DivyadarshiniGG" target="_blank" rel="noopener">github.com/DivyadarshiniGG</a></li>
+            <li><span class="fact-label">Tools</span>VS Code, Claude, ChatGPT, GitHub, Power BI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2025 – 2027</div>
+            <div class="timeline-body">
+              <h3>Master's in Computer Application (MCA)</h3>
+              <p>Vellore Institute of Technology, Chennai. GPA: 9.17</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2022 – 2025</div>
+            <div class="timeline-body">
+              <h3>BCA, Undergraduate</h3>
+              <p>Sacred Heart College, Tirupattur. CGPA: 9.13 — awarded Gold Medal and First Prize for Academic Proficiency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Technical</h3>
+            <div class="chip-row">
+              <span class="chip">Python</span><span class="chip">Java</span><span class="chip">HTML</span>
+              <span class="chip">CSS</span><span class="chip">SQL</span><span class="chip">React</span>
+              <span class="chip">JavaScript</span><span class="chip">Data Analytics</span><span class="chip">AWS</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Domain</h3>
+            <div class="chip-row">
+              <span class="chip">Gen AI</span><span class="chip">Machine Learning</span>
+              <span class="chip">Deep Learning</span><span class="chip">Cyber Security</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <div class="chip-row">
+              <span class="chip">VS Code</span><span class="chip">Claude</span><span class="chip">ChatGPT</span>
+              <span class="chip">GitHub</span><span class="chip">Microsoft Excel</span><span class="chip">Power BI</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Soft Skills</h3>
+            <div class="chip-row">
+              <span class="chip">Team Work</span><span class="chip">Communication</span>
+              <span class="chip">Adaptive Learner</span><span class="chip">Time Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>AI-Enhanced Study Planner</h3>
+            <p>Full-stack study planner built with React.js and Django REST Framework, with JWT authentication
+              and a Groq AI (LLaMA 3.3) study-plan generator. Includes task management, a Pomodoro timer built with
+              useEffect, and a progress dashboard.</p>
+            <p class="project-stack">React · Django REST · JWT · Groq AI</p>
+            <a class="project-link" href="https://github.com/DivyadarshiniGG/ai-study-planner" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <h3>SpamShield AI — Multilingual SMS Spam Detection</h3>
+            <p>Real-time, explainable spam detector with 98.74% accuracy, supporting Tamil, Hindi, and multiple
+              languages using dual TF-IDF features and classic ML models served through a Flask app.</p>
+            <p class="project-stack">Flask · Scikit-learn · TF-IDF · NLTK</p>
+            <a class="project-link" href="https://github.com/DivyadarshiniGG/sms_spam_detector" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+          <article class="project-card">
+            <h3>AI-Enhanced Plant Disease Detection System</h3>
+            <p>End-to-end deep learning app for plant leaf disease classification with a PyTorch CNN, reaching 98.9%
+              test accuracy. Integrates automated diagnosis, a recommendation engine, and an online supplement
+              marketplace in one responsive interface.</p>
+            <p class="project-stack">Flask · PyTorch (CNN) · HTML/CSS</p>
+            <a class="project-link" href="https://github.com/DivyadarshiniGG/plant_disease_detection" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+        </div>
+        <p class="more-projects">More projects on <a href="https://github.com/DivyadarshiniGG?tab=repositories" target="_blank" rel="noopener">my GitHub</a>, including an offline multimodal RAG chatbot.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experience &amp; Recognition</h2>
+        <div class="exp-grid">
+          <div class="exp-block">
+            <h3>Virtual Experience</h3>
+            <p class="exp-title">Tata Group — Data Analytics Job Simulation (Forage)</p>
+            <p class="exp-date">March 2026</p>
+            <p>Performed AI-driven exploratory data analysis and structured a predictive delinquency risk
+              framework, proposing a compliant, ethical AI-based collections strategy.</p>
+          </div>
+          <div class="exp-block">
+            <h3>Honors &amp; Recognition</h3>
+            <ul class="honors-list">
+              <li>Gold Medal and First Prize for Academic Proficiency (2022–2025), BCA at Sacred Heart College.</li>
+              <li>Certificate for active involvement in Research Forum activities, 2024–2025.</li>
+              <li>Core Team Member, National Level IT Symposium — Department of Computer Applications, SHC, coordinating participants from multiple colleges.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cert-row">
+          <h3>Certificates</h3>
+          <div class="chip-row">
+            <span class="chip">Web Development Course</span>
+            <span class="chip">IBM AI Fundamentals Course</span>
+            <span class="chip">Data Analytics Course @ NoviTech</span>
+            <span class="chip">AWS Cloud Practitioner (in progress)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p class="contact-lead">Have a project, a role, or feedback on my work? I'd like to hear it.</p>
+          <ul class="contact-list">
+            <li><span class="fact-label">Email</span><a href="mailto:dddivyadarshini321@gmail.com">dddivyadarshini321@gmail.com</a></li>
+            <li><span class="fact-label">Phone</span><a href="tel:+919080657170">+91 90806 57170</a></li>
+            <li><span class="fact-label">GitHub</span><a href="https://github.com/DivyadarshiniGG" target="_blank" rel="noopener">github.com/DivyadarshiniGG</a></li>
+            <li><span class="fact-label">LinkedIn</span><a href="https://www.linkedin.com/in/divyadarshini793/" target="_blank" rel="noopener">linkedin.com/in/divyadarshini793</a></li>
+          </ul>
+        </div>
+        <form class="contact-form" onsubmit="return false;">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="What's on your mind?" required></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Divya Darshini G G. Built for Week 1 of the Full Stack Web Development (MERN) course.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
